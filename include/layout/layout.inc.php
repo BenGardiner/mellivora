@@ -26,7 +26,7 @@ function head($title = '') {
     <link rel="icon" href="',Config::get('MELLIVORA_CONFIG_SITE_URL_STATIC_RESOURCES'),'img/favicon.png" type="image/png" />
 
     <!-- CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="',Config::get('MELLIVORA_CONFIG_SITE_URL_STATIC_RESOURCES'),'css/bootstrap.min.css" rel="stylesheet">
     <link href="',Config::get('MELLIVORA_CONFIG_SITE_URL_STATIC_RESOURCES'),'css/mellivora.css" rel="stylesheet">';
 
     js_global_dict();
@@ -131,8 +131,8 @@ function foot () {
 </div> <!-- /page -->
 
 <!-- JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="',Config::get('MELLIVORA_CONFIG_SITE_URL_STATIC_RESOURCES'),'js/jquery.min.js"></script>
+<script type="text/javascript" src="',Config::get('MELLIVORA_CONFIG_SITE_URL_STATIC_RESOURCES'),'js/bootstrap.min.js"></script>
 <script type="text/javascript" src="',Config::get('MELLIVORA_CONFIG_SITE_URL_STATIC_RESOURCES'),'js/mellivora.js"></script>
 
 </body>
